@@ -1,18 +1,45 @@
 .main-section{
-    background-color: whitesmoke;
-    padding-bottom: 20em
+    background-color: pink;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
-.title-text{
-    margin-top: 5em;
 
+.title-text{
+    margin-top: 2em;
 }
 
 .subtitle-text{
     margin-top: 2em;
-    padding-right: 15em;
+    max-width: 30em;
 }
 
+
 .main-image{
-    margin: 2em;
+    margin: 1em;
+    border-radius: 3em;
+    transition: 0.2s;
+}
+
+.main-image:hover{
+    border-radius: 3em;
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+
+.button-box{
+    padding-right: 5em;
+    padding-top: 5em;
+}
+
+.main-button{
+    scale: 1.3;
+    transition: 0.2s;
+    border-radius: 0.5em;
+}
+
+.main-button:hover{
+    scale: 1.35;
+    transition: 0.2s;
 }
